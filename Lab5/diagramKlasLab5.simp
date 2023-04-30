@@ -1,0 +1,775 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="13.96" multi-file="no" uid="simpd1b88721275a4acbbbfbf044e9550285">
+  <meta>
+    <name>diagramKlasLab6</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type stereotype="interface" type-id="uml-interface-classifier" type="Interface" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type="Unknown" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>22</value>
+      </counter>
+      <counter>
+        <item-type type-id="uml-interface-classifier" type="Interface" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>47</value>
+      </counter>
+      <counter>
+        <item-type type-id="dependency" type="Dependency" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="realization" type="Realization" />
+        <value>12</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="Generalization" />
+        <value>10</value>
+      </counter>
+      <counter>
+        <item-type type-id="text" type="Text" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>3</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>14</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-d3beb51294a8441d948dc3e5dce5c8db" name="" task-id-sequence="0">
+    <working-schedule uid="ws-df5dcdf71ae34a68a48c77e1715223bd" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name>Jakub</first-name>
+        <last-name>Marciniak</last-name>
+        <role />
+        <e-mail>w64150@student.wsiz.edu.pl</e-mail>
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-41c3a2d1976a4caca97449bf0fef43df" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+      <person id="">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-8a716c78b4f04d7991b577d252acbc4a" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="p5a3085db9ec743cabec62ba6fedf3d06_726159125" name="Lab 6 zadanie 1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author>Jakub Marciniak</author>
+        </authors>
+        <description />
+        <creation-date>04/24/2023 13:51:05</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p12da6bbba714493e83b12042b3699fa6_371535487" name="Diagram klas - płatności" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="0,-221">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author>Jakub Marciniak</author>
+          </authors>
+          <description />
+          <creation-date>04/24/2023 13:51:05</creation-date>
+          <change-date>04/30/2023 15:31:48</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="035cfcfa00204c18b00457e84b28ec2e" cid="C002" type="class" name="PaymentA" creator="" creation-date="04/24/2023 13:54:47" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="a361209e7b8c841c5976cc7473a302bdc386" cid="PROP002" name="name" creation-date="04/24/2023 13:55:23" property-ref="3014a78318974e72a945745b2733af64" />
+              <attribute id="a7d312834f88c4b5db0950898eb0d5547958" cid="PROP003" name="fees" creation-date="04/24/2023 13:55:26" property-ref="1d957cb3fd174af984338a3181f233d6" />
+              <attribute id="a4a0740e3f08f4e13a53f078790486666928" cid="PROP004" name="countries" creation-date="04/24/2023 13:55:28" property-ref="cfdb6651a4e74c0f82d36f1c9bcd807c" />
+            </attributes>
+            <operations>
+              <operation id="o247561c24f704f909660db105b39c843975" cid="OP006" name="GetName" creation-date="04/24/2023 13:55:35" type="" type-id="" visibility="public" />
+              <operation id="o549c571da049465f9637e6627b4363e0361" cid="OP007" name="GetFees" creation-date="04/24/2023 13:55:40" type="" type-id="" visibility="public" />
+              <operation id="o40311c1da36d401db57014b6421de5e0819" cid="OP008" name="GetCountries" creation-date="04/24/2023 13:55:43" type="" type-id="" visibility="public" />
+              <operation id="oab81b3d202f74362b600566b76b031a2269" cid="OP009" name="ProcessPayment" creation-date="04/24/2023 13:55:52" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="71ec7f2a99c447ccb1d67019f49c6db6" cid="PROP008" type="property" name="name" owner="di2997cb63c71e497aa4d9f4d0dd1326919089" creator="" creation-date="04/24/2023 13:55:23" visibility="private" />
+          <item id="di3924594d31db4a37aaaa242c49e510803555" cid="C005" type="class" name="PaymentD" creator="" creation-date="04/24/2023 13:54:47" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="a361209e7b8c841c5976cc7473a302bdc386" cid="PROP011" name="name" creation-date="04/24/2023 13:55:23" property-ref="49a0f26c21234a218bd6e6876f0909ed" />
+              <attribute id="a7d312834f88c4b5db0950898eb0d5547958" cid="PROP012" name="fees" creation-date="04/24/2023 13:55:26" property-ref="fc42dea3016d46b59e255d1c93809151" />
+              <attribute id="a4a0740e3f08f4e13a53f078790486666928" cid="PROP013" name="countries" creation-date="04/24/2023 13:55:28" property-ref="e073b908514a4031a1ab60d7fc9ae047" />
+            </attributes>
+            <operations>
+              <operation id="o247561c24f704f909660db105b39c843975" cid="OP006" name="GetName" creation-date="04/24/2023 13:55:35" type="" type-id="" visibility="public" />
+              <operation id="o549c571da049465f9637e6627b4363e0361" cid="OP007" name="GetFees" creation-date="04/24/2023 13:55:40" type="" type-id="" visibility="public" />
+              <operation id="o40311c1da36d401db57014b6421de5e0819" cid="OP008" name="GetCountries" creation-date="04/24/2023 13:55:43" type="" type-id="" visibility="public" />
+              <operation id="oab81b3d202f74362b600566b76b031a2269" cid="OP009" name="ProcessPayment" creation-date="04/24/2023 13:55:52" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="b735d0c4822b4988b412fbd2733db363" cid="C001" type="class" name="PaymentProcessor" creator="" creation-date="04/24/2023 13:51:50" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="a05cd85b34e194496a86717f2ab6d122c931" cid="PROP001" name="paymentMethods" creation-date="04/24/2023 13:54:06" property-ref="2aa15279d6bc44a7899b583064b8fd5b" />
+            </attributes>
+            <operations>
+              <operation id="o6997331b794b49079c6f35a6a29a9f6b896" cid="OP005" name="ProcesorPayment" creation-date="04/24/2023 13:54:24" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="ed7fdd3c177b478fbd1f655f61a7aea3" cid="PROP016" type="property" name="countries" owner="di64df9d0ca2e54bcc900b423ae5467b282064" creator="" creation-date="04/24/2023 13:55:28" visibility="private" />
+          <item id="5a13904512044156bc8389f5cd667e3f" cid="PROP005" type="property" name="name" owner="dia0ba3fb8275e434ea2c7454ac751f4c19323" creator="" creation-date="04/24/2023 13:55:23" visibility="private" />
+          <item id="c9f2dfcb168443728248e5796cc3095e" cid="PROP009" type="property" name="fees" owner="di2997cb63c71e497aa4d9f4d0dd1326919089" creator="" creation-date="04/24/2023 13:55:26" visibility="private" />
+          <item id="ee42a3cc3adf4889aa09ba51c90cd7ee" cid="REA002" type="realization" creator="" creation-date="04/30/2023 14:12:39" from="dia0ba3fb8275e434ea2c7454ac751f4c19323" to="43f3102cd5774cd39ceccd02ca4d2309" visibility="package" />
+          <item id="1d957cb3fd174af984338a3181f233d6" cid="PROP003" type="property" name="fees" owner="035cfcfa00204c18b00457e84b28ec2e" creator="" creation-date="04/24/2023 13:55:26" visibility="private" />
+          <item id="di2997cb63c71e497aa4d9f4d0dd1326919089" cid="C004" type="class" name="PaymentC" creator="" creation-date="04/24/2023 13:54:47" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="a361209e7b8c841c5976cc7473a302bdc386" cid="PROP008" name="name" creation-date="04/24/2023 13:55:23" property-ref="71ec7f2a99c447ccb1d67019f49c6db6" />
+              <attribute id="a7d312834f88c4b5db0950898eb0d5547958" cid="PROP009" name="fees" creation-date="04/24/2023 13:55:26" property-ref="c9f2dfcb168443728248e5796cc3095e" />
+              <attribute id="a4a0740e3f08f4e13a53f078790486666928" cid="PROP010" name="countries" creation-date="04/24/2023 13:55:28" property-ref="0c4a5e75d0794029b9b47023112f7dd5" />
+            </attributes>
+            <operations>
+              <operation id="o247561c24f704f909660db105b39c843975" cid="OP006" name="GetName" creation-date="04/24/2023 13:55:35" type="" type-id="" visibility="public" />
+              <operation id="o549c571da049465f9637e6627b4363e0361" cid="OP007" name="GetFees" creation-date="04/24/2023 13:55:40" type="" type-id="" visibility="public" />
+              <operation id="o40311c1da36d401db57014b6421de5e0819" cid="OP008" name="GetCountries" creation-date="04/24/2023 13:55:43" type="" type-id="" visibility="public" />
+              <operation id="oab81b3d202f74362b600566b76b031a2269" cid="OP009" name="ProcessPayment" creation-date="04/24/2023 13:55:52" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="43f3102cd5774cd39ceccd02ca4d2309" cid="I001" type="uml-interface-classifier" name="IPaymentMethod" creator="" creation-date="04/24/2023 13:52:06" visibility="undefined">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="43f3102cd5774cd39ceccd02ca4d2309_interface_c" type="interface" ref="" />
+            </stereotype-instances>
+            <operations>
+              <operation id="od8bc52c2c5b34a71bbe30a0d148b4b14229" cid="OP001" name="GetName" creation-date="04/24/2023 13:52:33" type="" type-id="" visibility="public" />
+              <operation id="o4344c326f6d54451a57bd794ddbd995e79" cid="OP002" name="GetFees" creation-date="04/24/2023 13:52:46" type="" type-id="" visibility="public" />
+              <operation id="o3f02ff598f184ceaa882b20d0395bd33688" cid="OP003" name="GetCountries" creation-date="04/24/2023 13:53:19" type="" type-id="" visibility="public" />
+              <operation id="obe518159f3814876a7823f97b5abf9a7845" cid="OP004" name="ProcesorPayment" creation-date="04/24/2023 13:53:33" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="dia0ba3fb8275e434ea2c7454ac751f4c19323" cid="C003" type="class" name="PaymentB" creator="" creation-date="04/24/2023 13:54:47" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="a361209e7b8c841c5976cc7473a302bdc386" cid="PROP005" name="name" creation-date="04/24/2023 13:55:23" property-ref="5a13904512044156bc8389f5cd667e3f" />
+              <attribute id="a7d312834f88c4b5db0950898eb0d5547958" cid="PROP006" name="fees" creation-date="04/24/2023 13:55:26" property-ref="3a908544f15945aca1e55502e85f045b" />
+              <attribute id="a4a0740e3f08f4e13a53f078790486666928" cid="PROP007" name="countries" creation-date="04/24/2023 13:55:28" property-ref="76724f4fc25e4b37af68bbdb8c58f6c1" />
+            </attributes>
+            <operations>
+              <operation id="o247561c24f704f909660db105b39c843975" cid="OP006" name="GetName" creation-date="04/24/2023 13:55:35" type="" type-id="" visibility="public" />
+              <operation id="o549c571da049465f9637e6627b4363e0361" cid="OP007" name="GetFees" creation-date="04/24/2023 13:55:40" type="" type-id="" visibility="public" />
+              <operation id="o40311c1da36d401db57014b6421de5e0819" cid="OP008" name="GetCountries" creation-date="04/24/2023 13:55:43" type="" type-id="" visibility="public" />
+              <operation id="oab81b3d202f74362b600566b76b031a2269" cid="OP009" name="ProcessPayment" creation-date="04/24/2023 13:55:52" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="cfdb6651a4e74c0f82d36f1c9bcd807c" cid="PROP004" type="property" name="countries" owner="035cfcfa00204c18b00457e84b28ec2e" creator="" creation-date="04/24/2023 13:55:28" visibility="private" />
+          <item id="af0f99d6c63347a9a9785ec4fd46f7fe" cid="REA004" type="realization" creator="" creation-date="04/30/2023 14:12:54" from="di2997cb63c71e497aa4d9f4d0dd1326919089" to="43f3102cd5774cd39ceccd02ca4d2309" visibility="package" />
+          <item id="0c4a5e75d0794029b9b47023112f7dd5" cid="PROP010" type="property" name="countries" owner="di2997cb63c71e497aa4d9f4d0dd1326919089" creator="" creation-date="04/24/2023 13:55:28" visibility="private" />
+          <item id="3014a78318974e72a945745b2733af64" cid="PROP002" type="property" name="name" owner="035cfcfa00204c18b00457e84b28ec2e" creator="" creation-date="04/24/2023 13:55:23" visibility="private" />
+          <item id="fc42dea3016d46b59e255d1c93809151" cid="PROP012" type="property" name="fees" owner="di3924594d31db4a37aaaa242c49e510803555" creator="" creation-date="04/24/2023 13:55:26" visibility="private" />
+          <item id="76724f4fc25e4b37af68bbdb8c58f6c1" cid="PROP007" type="property" name="countries" owner="dia0ba3fb8275e434ea2c7454ac751f4c19323" creator="" creation-date="04/24/2023 13:55:28" visibility="private" />
+          <item id="e073b908514a4031a1ab60d7fc9ae047" cid="PROP013" type="property" name="countries" owner="di3924594d31db4a37aaaa242c49e510803555" creator="" creation-date="04/24/2023 13:55:28" visibility="private" />
+          <item id="d6f2be824282453d913a3369aa3f9ad4" cid="PROP014" type="property" name="name" owner="di64df9d0ca2e54bcc900b423ae5467b282064" creator="" creation-date="04/24/2023 13:55:23" visibility="private" />
+          <item id="26cb6dd6618c43a981ee53b932ef3321" cid="PROP015" type="property" name="fees" owner="di64df9d0ca2e54bcc900b423ae5467b282064" creator="" creation-date="04/24/2023 13:55:26" visibility="private" />
+          <item id="3a908544f15945aca1e55502e85f045b" cid="PROP006" type="property" name="fees" owner="dia0ba3fb8275e434ea2c7454ac751f4c19323" creator="" creation-date="04/24/2023 13:55:26" visibility="private" />
+          <item id="7b4b4846ef6648449078baef2e63ac1b" cid="REA005" type="realization" creator="" creation-date="04/30/2023 14:13:02" from="di64df9d0ca2e54bcc900b423ae5467b282064" to="43f3102cd5774cd39ceccd02ca4d2309" visibility="package" />
+          <item id="49a0f26c21234a218bd6e6876f0909ed" cid="PROP011" type="property" name="name" owner="di3924594d31db4a37aaaa242c49e510803555" creator="" creation-date="04/24/2023 13:55:23" visibility="private" />
+          <item id="cbc4f650259c4f71b29f2d0373ee7e81" cid="REA006" type="realization" creator="" creation-date="04/30/2023 14:13:52" from="di3924594d31db4a37aaaa242c49e510803555" to="43f3102cd5774cd39ceccd02ca4d2309" visibility="package" />
+          <item id="e63c01e7096b45a79562a496aad0c2e0" cid="REA001" type="realization" creator="" creation-date="04/30/2023 14:12:31" from="035cfcfa00204c18b00457e84b28ec2e" to="43f3102cd5774cd39ceccd02ca4d2309" visibility="package" />
+          <item id="74e386b2b3e54b7b9d341aaf0fc32d59" cid="REA009" type="realization" creator="" creation-date="04/30/2023 15:31:48" from="b735d0c4822b4988b412fbd2733db363" to="43f3102cd5774cd39ceccd02ca4d2309" visibility="package" />
+          <item id="di64df9d0ca2e54bcc900b423ae5467b282064" cid="C006" type="class" name="PaymentE" creator="" creation-date="04/24/2023 13:54:47" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="a361209e7b8c841c5976cc7473a302bdc386" cid="PROP014" name="name" creation-date="04/24/2023 13:55:23" property-ref="d6f2be824282453d913a3369aa3f9ad4" />
+              <attribute id="a7d312834f88c4b5db0950898eb0d5547958" cid="PROP015" name="fees" creation-date="04/24/2023 13:55:26" property-ref="26cb6dd6618c43a981ee53b932ef3321" />
+              <attribute id="a4a0740e3f08f4e13a53f078790486666928" cid="PROP016" name="countries" creation-date="04/24/2023 13:55:28" property-ref="ed7fdd3c177b478fbd1f655f61a7aea3" />
+            </attributes>
+            <operations>
+              <operation id="o247561c24f704f909660db105b39c843975" cid="OP006" name="GetName" creation-date="04/24/2023 13:55:35" type="" type-id="" visibility="public" />
+              <operation id="o549c571da049465f9637e6627b4363e0361" cid="OP007" name="GetFees" creation-date="04/24/2023 13:55:40" type="" type-id="" visibility="public" />
+              <operation id="o40311c1da36d401db57014b6421de5e0819" cid="OP008" name="GetCountries" creation-date="04/24/2023 13:55:43" type="" type-id="" visibility="public" />
+              <operation id="oab81b3d202f74362b600566b76b031a2269" cid="OP009" name="ProcessPayment" creation-date="04/24/2023 13:55:52" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="2aa15279d6bc44a7899b583064b8fd5b" cid="PROP001" type="property" name="paymentMethods" owner="b735d0c4822b4988b412fbd2733db363" creator="" creation-date="04/24/2023 13:54:06" visibility="private" />
+        </abstract-items>
+        <layer id="2afbb9123f0b47afae6b74602bd196d3" name="Default" visible="true" enabled="true" locked="false">
+          <item id="b735d0c4822b4988b412fbd2733db363" iid="37b0faa6572f4de99e83e5352e79fb82" show-fields="true" creation-date="04/24/2023 13:51:50" order-index="0" type="entity">
+            <layout ax="234" ay="98" awidth="140" aheight="106" x="234" y="98" width="140" height="106" rotation-center="0,27" />
+            <classifier />
+            <class />
+          </item>
+          <item id="43f3102cd5774cd39ceccd02ca4d2309" iid="2ddf67c16a364621b9e4505031d52cd6" creation-date="04/24/2023 13:52:06" order-index="1" type="entity">
+            <layout ax="499" ay="123" awidth="140" aheight="160" x="499" y="123" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="035cfcfa00204c18b00457e84b28ec2e" iid="d4e6c983a928451481d0cf2b9b31542c" show-fields="true" creation-date="04/24/2023 13:54:47" order-index="2" type="entity">
+            <layout ax="295" ay="376" awidth="140" aheight="174" x="295" y="376" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="dia0ba3fb8275e434ea2c7454ac751f4c19323" iid="38843be70e9a46b9a006f52ee1d7b4b0" show-fields="true" creation-date="04/24/2023 13:54:47" order-index="2" type="entity">
+            <layout ax="517" ay="376" awidth="140" aheight="174" x="517" y="376" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="di2997cb63c71e497aa4d9f4d0dd1326919089" iid="8e972d21134e4b66970c69db179b4965" show-fields="true" creation-date="04/24/2023 13:54:47" order-index="2" type="entity">
+            <layout ax="739" ay="283" awidth="140" aheight="174" x="739" y="283" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="di3924594d31db4a37aaaa242c49e510803555" iid="181eb6b0f67641eda33c8f604baa4105" show-fields="true" creation-date="04/24/2023 13:54:47" order-index="2" type="entity">
+            <layout ax="721" ay="-23" awidth="140" aheight="174" x="721" y="-23" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="di64df9d0ca2e54bcc900b423ae5467b282064" iid="e95e810b866b44e9a2499b3f642c9954" show-fields="true" creation-date="04/24/2023 13:54:47" order-index="2" type="entity">
+            <layout ax="460" ay="-119" awidth="140" aheight="174" x="460" y="-119" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="e63c01e7096b45a79562a496aad0c2e0" iid="2f7ef1a7b81943bf8156b1a4dcf0212b" creation-date="04/30/2023 14:12:31" order-index="4" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="435" y1="376" x2="499" y2="283" start-border-pos="0.25" end-border-pos="0.75" start-local-pos="0" end-local-pos="160" name-position="0,20">
+              <points>
+                <point x="435" y="376" />
+                <point x="499" y="283" />
+              </points>
+            </layout>
+            <relation from="035cfcfa00204c18b00457e84b28ec2e" from-iid="d4e6c983a928451481d0cf2b9b31542c" to="43f3102cd5774cd39ceccd02ca4d2309" to-iid="2ddf67c16a364621b9e4505031d52cd6" />
+          </item>
+          <item id="ee42a3cc3adf4889aa09ba51c90cd7ee" iid="be38deed64e74115b5040da60307290e" creation-date="04/30/2023 14:12:39" order-index="5" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="587" y1="376" x2="585" y2="283" start-border-pos="0.125" end-border-pos="0.596428571428571" start-local-pos="70" end-local-pos="86" name-position="0,20">
+              <points>
+                <point x="587" y="376" />
+                <point x="585" y="283" />
+              </points>
+            </layout>
+            <relation from="dia0ba3fb8275e434ea2c7454ac751f4c19323" from-iid="38843be70e9a46b9a006f52ee1d7b4b0" to="43f3102cd5774cd39ceccd02ca4d2309" to-iid="2ddf67c16a364621b9e4505031d52cd6" />
+          </item>
+          <item id="af0f99d6c63347a9a9785ec4fd46f7fe" iid="02548e4ca325493aab99fcd2a0ec441a" creation-date="04/30/2023 14:12:54" order-index="6" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="739" y1="310" x2="639" y2="266" start-border-pos="0.961206896551724" end-border-pos="0.4734375" start-local-pos="27" end-local-pos="143" name-position="0,20">
+              <points>
+                <point x="739" y="310" />
+                <point x="639" y="266" />
+              </points>
+            </layout>
+            <relation from="di2997cb63c71e497aa4d9f4d0dd1326919089" from-iid="8e972d21134e4b66970c69db179b4965" to="43f3102cd5774cd39ceccd02ca4d2309" to-iid="2ddf67c16a364621b9e4505031d52cd6" />
+          </item>
+          <item id="7b4b4846ef6648449078baef2e63ac1b" iid="3d9d384b01f549b082ff721f9eca0625" creation-date="04/30/2023 14:13:02" order-index="7" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="530" y1="55" x2="569" y2="123" start-border-pos="0.625" end-border-pos="0.125" start-local-pos="70" end-local-pos="70" name-position="0,20">
+              <points>
+                <point x="530" y="55" />
+                <point x="569" y="123" />
+              </points>
+            </layout>
+            <relation from="di64df9d0ca2e54bcc900b423ae5467b282064" from-iid="e95e810b866b44e9a2499b3f642c9954" to="43f3102cd5774cd39ceccd02ca4d2309" to-iid="2ddf67c16a364621b9e4505031d52cd6" />
+          </item>
+          <item id="cbc4f650259c4f71b29f2d0373ee7e81" iid="d52316355a654649b52ed29f9e5d95b5" creation-date="04/30/2023 14:13:52" order-index="8" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="721" y1="151" x2="639" y2="203" start-border-pos="0.75" end-border-pos="0.375" start-local-pos="174" end-local-pos="80" name-position="0,20">
+              <points>
+                <point x="721" y="151" />
+                <point x="639" y="203" />
+              </points>
+            </layout>
+            <relation from="di3924594d31db4a37aaaa242c49e510803555" from-iid="181eb6b0f67641eda33c8f604baa4105" to="43f3102cd5774cd39ceccd02ca4d2309" to-iid="2ddf67c16a364621b9e4505031d52cd6" />
+          </item>
+          <item id="74e386b2b3e54b7b9d341aaf0fc32d59" iid="1d229c1a03a140deb58b3a8243b51fea" creation-date="04/30/2023 15:31:48" order-index="9" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="374" y1="151" x2="499" y2="188" start-border-pos="0.375" end-border-pos="0.8984375" start-local-pos="53" end-local-pos="65" name-position="0,20">
+              <points>
+                <point x="374" y="151" />
+                <point x="499" y="188" />
+              </points>
+            </layout>
+            <relation from="b735d0c4822b4988b412fbd2733db363" from-iid="37b0faa6572f4de99e83e5352e79fb82" to="43f3102cd5774cd39ceccd02ca4d2309" to-iid="2ddf67c16a364621b9e4505031d52cd6" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-class" id="p6115b3e089334f469674f2bc11f0901c_733175967" name="Diagram klas - testy" order-index="2" overview-order-index="0" uid="" auto-routed-paths="false" default-line-style="default" view-location="-1,-536">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>04/30/2023 14:16:12</creation-date>
+          <change-date>04/30/2023 14:49:49</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="didcfa1fd598fa4f46a559338ced0957a92429" cid="GNR004" type="generalization" creator="" creation-date="04/30/2023 14:28:19" from="die24e5ee9a0c64243b356b98260837eb02429" to="diaa0b208f8c4d4ad08f60fea49ec6171d2873" visibility="package" />
+          <item id="be457cc5684a4a0ea561d890a0527bc5" cid="C012" type="class" name="PaymentTestA" creator="" creation-date="04/30/2023 14:24:35">
+            <operations>
+              <operation id="o5d46db38349a4addb4e77dd013d60165582" cid="OP010" name="TestGetName" creation-date="04/30/2023 14:25:04" type="" type-id="" visibility="protected" />
+              <operation id="o42e35f33ad9f465c85a217d76e3fdb72915" cid="OP011" name="TestGetFees" creation-date="04/30/2023 14:25:20" type="" type-id="" visibility="protected" />
+              <operation id="o633b3c713d9041cfb25d4b303a4f760c546" cid="OP012" name="TestGetCountries" creation-date="04/30/2023 14:25:31" type="" type-id="" visibility="protected" />
+              <operation id="of368d3ede7a64a6abae12a89b17c4352200" cid="OP013" name="TestProcessPayment" creation-date="04/30/2023 14:25:41" type="" type-id="" visibility="protected" />
+            </operations>
+          </item>
+          <item id="9288b2d53ddd49d1a30ac6ba5f5b90ab" cid="PROP026" type="property" name="name" owner="dia038be6abdfa4e00807d9dd65afa078b2873" creator="" creation-date="04/24/2023 13:55:23" visibility="private" />
+          <item id="dic168f887bc464060a7fad8c2a0a1cfac1878" cid="C014" type="class" name="PaymentTestB" creator="" creation-date="04/30/2023 14:24:35" visibility="undefined">
+            <operations>
+              <operation id="o5d46db38349a4addb4e77dd013d60165582" cid="OP010" name="TestGetName" creation-date="04/30/2023 14:25:04" type="" type-id="" visibility="protected" />
+              <operation id="o42e35f33ad9f465c85a217d76e3fdb72915" cid="OP011" name="TestGetFees" creation-date="04/30/2023 14:25:20" type="" type-id="" visibility="protected" />
+              <operation id="o633b3c713d9041cfb25d4b303a4f760c546" cid="OP012" name="TestGetCountries" creation-date="04/30/2023 14:25:31" type="" type-id="" visibility="protected" />
+              <operation id="of368d3ede7a64a6abae12a89b17c4352200" cid="OP013" name="TestProcessPayment" creation-date="04/30/2023 14:25:41" type="" type-id="" visibility="protected" />
+            </operations>
+          </item>
+          <item id="diaa0b208f8c4d4ad08f60fea49ec6171d2873" cid="C009" type="class" name="PaymentC" creator="" creation-date="04/24/2023 13:54:47" visibility="undefined">
+            <attributes>
+              <attribute id="a361209e7b8c841c5976cc7473a302bdc386" cid="PROP023" name="name" creation-date="04/24/2023 13:55:23" property-ref="028a0012a6144ed596f7755d8189d01a" />
+              <attribute id="a7d312834f88c4b5db0950898eb0d5547958" cid="PROP024" name="fees" creation-date="04/24/2023 13:55:26" property-ref="9e5242b9e665426184df3bc2dc2c5b39" />
+              <attribute id="a4a0740e3f08f4e13a53f078790486666928" cid="PROP025" name="countries" creation-date="04/24/2023 13:55:28" property-ref="3d2220444fd64f809bb536618e8585ba" />
+            </attributes>
+            <operations>
+              <operation id="o247561c24f704f909660db105b39c843975" cid="OP006" name="GetName" creation-date="04/24/2023 13:55:35" type="" type-id="" visibility="public" />
+              <operation id="o549c571da049465f9637e6627b4363e0361" cid="OP007" name="GetFees" creation-date="04/24/2023 13:55:40" type="" type-id="" visibility="public" />
+              <operation id="o40311c1da36d401db57014b6421de5e0819" cid="OP008" name="GetCountries" creation-date="04/24/2023 13:55:43" type="" type-id="" visibility="public" />
+              <operation id="oab81b3d202f74362b600566b76b031a2269" cid="OP009" name="ProcessPayment" creation-date="04/24/2023 13:55:52" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="9e5242b9e665426184df3bc2dc2c5b39" cid="PROP024" type="property" name="fees" owner="diaa0b208f8c4d4ad08f60fea49ec6171d2873" creator="" creation-date="04/24/2023 13:55:26" visibility="private" />
+          <item id="08c475bd6f4e48bf93b345391d248c84" cid="PROP019" type="property" name="countries" owner="di45daa962d9754e8a9dbe209605fe76c42873" creator="" creation-date="04/24/2023 13:55:28" visibility="private" />
+          <item id="a8310c40c9424741a38ea6e9310f49f1" cid="PROP028" type="property" name="countries" owner="dia038be6abdfa4e00807d9dd65afa078b2873" creator="" creation-date="04/24/2023 13:55:28" visibility="private" />
+          <item id="675b12f314a64b31b76408e42474380e" cid="PROP030" type="property" name="fees" owner="did28dc7bd58514ea2abe9df3004496bb62873" creator="" creation-date="04/24/2023 13:55:26" visibility="private" />
+          <item id="di46058d0712b149a4965bc41b0bcd81802873" cid="C008" type="class" name="PaymentB" creator="" creation-date="04/24/2023 13:54:47" visibility="undefined">
+            <attributes>
+              <attribute id="a361209e7b8c841c5976cc7473a302bdc386" cid="PROP020" name="name" creation-date="04/24/2023 13:55:23" property-ref="5a1c5ca95a5e49a48b10b8b2e7df5bec" />
+              <attribute id="a7d312834f88c4b5db0950898eb0d5547958" cid="PROP021" name="fees" creation-date="04/24/2023 13:55:26" property-ref="74e54c5647ea426eb211ccf1e7ff4e27" />
+              <attribute id="a4a0740e3f08f4e13a53f078790486666928" cid="PROP022" name="countries" creation-date="04/24/2023 13:55:28" property-ref="4bfe523ccf344bf282fd9d146862122f" />
+            </attributes>
+            <operations>
+              <operation id="o247561c24f704f909660db105b39c843975" cid="OP006" name="GetName" creation-date="04/24/2023 13:55:35" type="" type-id="" visibility="public" />
+              <operation id="o549c571da049465f9637e6627b4363e0361" cid="OP007" name="GetFees" creation-date="04/24/2023 13:55:40" type="" type-id="" visibility="public" />
+              <operation id="o40311c1da36d401db57014b6421de5e0819" cid="OP008" name="GetCountries" creation-date="04/24/2023 13:55:43" type="" type-id="" visibility="public" />
+              <operation id="oab81b3d202f74362b600566b76b031a2269" cid="OP009" name="ProcessPayment" creation-date="04/24/2023 13:55:52" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="5a1c5ca95a5e49a48b10b8b2e7df5bec" cid="PROP020" type="property" name="name" owner="di46058d0712b149a4965bc41b0bcd81802873" creator="" creation-date="04/24/2023 13:55:23" visibility="private" />
+          <item id="c7e9250d632a4a8caedc9eab52d4a3d6" cid="GNR001" type="generalization" creator="" creation-date="04/30/2023 14:28:19" from="be457cc5684a4a0ea561d890a0527bc5" visibility="package" />
+          <item id="74e54c5647ea426eb211ccf1e7ff4e27" cid="PROP021" type="property" name="fees" owner="di46058d0712b149a4965bc41b0bcd81802873" creator="" creation-date="04/24/2023 13:55:26" visibility="private" />
+          <item id="028a0012a6144ed596f7755d8189d01a" cid="PROP023" type="property" name="name" owner="diaa0b208f8c4d4ad08f60fea49ec6171d2873" creator="" creation-date="04/24/2023 13:55:23" visibility="private" />
+          <item id="di538422d7aa0948a2af4aff0534b20d525534" cid="C017" type="class" name="PaymentTestE" creator="" creation-date="04/30/2023 14:24:35" visibility="undefined">
+            <operations>
+              <operation id="o5d46db38349a4addb4e77dd013d60165582" cid="OP010" name="TestGetName" creation-date="04/30/2023 14:25:04" type="" type-id="" visibility="protected" />
+              <operation id="o42e35f33ad9f465c85a217d76e3fdb72915" cid="OP011" name="TestGetFees" creation-date="04/30/2023 14:25:20" type="" type-id="" visibility="protected" />
+              <operation id="o633b3c713d9041cfb25d4b303a4f760c546" cid="OP012" name="TestGetCountries" creation-date="04/30/2023 14:25:31" type="" type-id="" visibility="protected" />
+              <operation id="of368d3ede7a64a6abae12a89b17c4352200" cid="OP013" name="TestProcessPayment" creation-date="04/30/2023 14:25:41" type="" type-id="" visibility="protected" />
+            </operations>
+          </item>
+          <item id="di69b63ba9e17842fd9624315c0c76c5cf4414" cid="C016" type="class" name="PaymentTestD" creator="" creation-date="04/30/2023 14:24:35" visibility="undefined">
+            <operations>
+              <operation id="o5d46db38349a4addb4e77dd013d60165582" cid="OP010" name="TestGetName" creation-date="04/30/2023 14:25:04" type="" type-id="" visibility="protected" />
+              <operation id="o42e35f33ad9f465c85a217d76e3fdb72915" cid="OP011" name="TestGetFees" creation-date="04/30/2023 14:25:20" type="" type-id="" visibility="protected" />
+              <operation id="o633b3c713d9041cfb25d4b303a4f760c546" cid="OP012" name="TestGetCountries" creation-date="04/30/2023 14:25:31" type="" type-id="" visibility="protected" />
+              <operation id="of368d3ede7a64a6abae12a89b17c4352200" cid="OP013" name="TestProcessPayment" creation-date="04/30/2023 14:25:41" type="" type-id="" visibility="protected" />
+            </operations>
+          </item>
+          <item id="4bfe523ccf344bf282fd9d146862122f" cid="PROP022" type="property" name="countries" owner="di46058d0712b149a4965bc41b0bcd81802873" creator="" creation-date="04/24/2023 13:55:28" visibility="private" />
+          <item id="69f4b593cec149d1a3d6173c8479349f" cid="PROP017" type="property" name="name" owner="di45daa962d9754e8a9dbe209605fe76c42873" creator="" creation-date="04/24/2023 13:55:23" visibility="private" />
+          <item id="di70ef253715da468282fddeeb073882ad4414" cid="GNR005" type="generalization" creator="" creation-date="04/30/2023 14:28:19" from="di69b63ba9e17842fd9624315c0c76c5cf4414" to="dia038be6abdfa4e00807d9dd65afa078b2873" visibility="package" />
+          <item id="di179b50bd6cb145e7a782f3f59856ae9a1878" cid="GNR003" type="generalization" creator="" creation-date="04/30/2023 14:28:19" from="dic168f887bc464060a7fad8c2a0a1cfac1878" to="di46058d0712b149a4965bc41b0bcd81802873" visibility="package" />
+          <item id="2a9312c6ce7946b2b2a0da4d9df56171" cid="PROP027" type="property" name="fees" owner="dia038be6abdfa4e00807d9dd65afa078b2873" creator="" creation-date="04/24/2023 13:55:26" visibility="private" />
+          <item id="die24e5ee9a0c64243b356b98260837eb02429" cid="C015" type="class" name="PaymentTestC" creator="" creation-date="04/30/2023 14:24:35" visibility="undefined">
+            <operations>
+              <operation id="o5d46db38349a4addb4e77dd013d60165582" cid="OP010" name="TestGetName" creation-date="04/30/2023 14:25:04" type="" type-id="" visibility="protected" />
+              <operation id="o42e35f33ad9f465c85a217d76e3fdb72915" cid="OP011" name="TestGetFees" creation-date="04/30/2023 14:25:20" type="" type-id="" visibility="protected" />
+              <operation id="o633b3c713d9041cfb25d4b303a4f760c546" cid="OP012" name="TestGetCountries" creation-date="04/30/2023 14:25:31" type="" type-id="" visibility="protected" />
+              <operation id="of368d3ede7a64a6abae12a89b17c4352200" cid="OP013" name="TestProcessPayment" creation-date="04/30/2023 14:25:41" type="" type-id="" visibility="protected" />
+            </operations>
+          </item>
+          <item id="di45daa962d9754e8a9dbe209605fe76c42873" cid="C007" type="class" name="PaymentA" creator="" creation-date="04/24/2023 13:54:47" visibility="undefined">
+            <attributes>
+              <attribute id="a361209e7b8c841c5976cc7473a302bdc386" cid="PROP017" name="name" creation-date="04/24/2023 13:55:23" property-ref="69f4b593cec149d1a3d6173c8479349f" />
+              <attribute id="a7d312834f88c4b5db0950898eb0d5547958" cid="PROP018" name="fees" creation-date="04/24/2023 13:55:26" property-ref="c6c4568994ea4f969702a4540a5f4ef6" />
+              <attribute id="a4a0740e3f08f4e13a53f078790486666928" cid="PROP019" name="countries" creation-date="04/24/2023 13:55:28" property-ref="08c475bd6f4e48bf93b345391d248c84" />
+            </attributes>
+            <operations>
+              <operation id="o247561c24f704f909660db105b39c843975" cid="OP006" name="GetName" creation-date="04/24/2023 13:55:35" type="" type-id="" visibility="public" />
+              <operation id="o549c571da049465f9637e6627b4363e0361" cid="OP007" name="GetFees" creation-date="04/24/2023 13:55:40" type="" type-id="" visibility="public" />
+              <operation id="o40311c1da36d401db57014b6421de5e0819" cid="OP008" name="GetCountries" creation-date="04/24/2023 13:55:43" type="" type-id="" visibility="public" />
+              <operation id="oab81b3d202f74362b600566b76b031a2269" cid="OP009" name="ProcessPayment" creation-date="04/24/2023 13:55:52" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="dicfd5e7adc60a4e348361bd94de14cf755534" cid="GNR006" type="generalization" creator="" creation-date="04/30/2023 14:28:19" from="di538422d7aa0948a2af4aff0534b20d525534" to="did28dc7bd58514ea2abe9df3004496bb62873" visibility="package" />
+          <item id="0228e45e9d5a437cb5e17734655061f4" cid="PROP029" type="property" name="name" owner="did28dc7bd58514ea2abe9df3004496bb62873" creator="" creation-date="04/24/2023 13:55:23" visibility="private" />
+          <item id="did28dc7bd58514ea2abe9df3004496bb62873" cid="C011" type="class" name="PaymentE" creator="" creation-date="04/24/2023 13:54:47" visibility="undefined">
+            <attributes>
+              <attribute id="a361209e7b8c841c5976cc7473a302bdc386" cid="PROP029" name="name" creation-date="04/24/2023 13:55:23" property-ref="0228e45e9d5a437cb5e17734655061f4" />
+              <attribute id="a7d312834f88c4b5db0950898eb0d5547958" cid="PROP030" name="fees" creation-date="04/24/2023 13:55:26" property-ref="675b12f314a64b31b76408e42474380e" />
+              <attribute id="a4a0740e3f08f4e13a53f078790486666928" cid="PROP031" name="countries" creation-date="04/24/2023 13:55:28" property-ref="7bac8d90a160414a9220c19623896407" />
+            </attributes>
+            <operations>
+              <operation id="o247561c24f704f909660db105b39c843975" cid="OP006" name="GetName" creation-date="04/24/2023 13:55:35" type="" type-id="" visibility="public" />
+              <operation id="o549c571da049465f9637e6627b4363e0361" cid="OP007" name="GetFees" creation-date="04/24/2023 13:55:40" type="" type-id="" visibility="public" />
+              <operation id="o40311c1da36d401db57014b6421de5e0819" cid="OP008" name="GetCountries" creation-date="04/24/2023 13:55:43" type="" type-id="" visibility="public" />
+              <operation id="oab81b3d202f74362b600566b76b031a2269" cid="OP009" name="ProcessPayment" creation-date="04/24/2023 13:55:52" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="dia038be6abdfa4e00807d9dd65afa078b2873" cid="C010" type="class" name="PaymentD" creator="" creation-date="04/24/2023 13:54:47" visibility="undefined">
+            <attributes>
+              <attribute id="a361209e7b8c841c5976cc7473a302bdc386" cid="PROP026" name="name" creation-date="04/24/2023 13:55:23" property-ref="9288b2d53ddd49d1a30ac6ba5f5b90ab" />
+              <attribute id="a7d312834f88c4b5db0950898eb0d5547958" cid="PROP027" name="fees" creation-date="04/24/2023 13:55:26" property-ref="2a9312c6ce7946b2b2a0da4d9df56171" />
+              <attribute id="a4a0740e3f08f4e13a53f078790486666928" cid="PROP028" name="countries" creation-date="04/24/2023 13:55:28" property-ref="a8310c40c9424741a38ea6e9310f49f1" />
+            </attributes>
+            <operations>
+              <operation id="o247561c24f704f909660db105b39c843975" cid="OP006" name="GetName" creation-date="04/24/2023 13:55:35" type="" type-id="" visibility="public" />
+              <operation id="o549c571da049465f9637e6627b4363e0361" cid="OP007" name="GetFees" creation-date="04/24/2023 13:55:40" type="" type-id="" visibility="public" />
+              <operation id="o40311c1da36d401db57014b6421de5e0819" cid="OP008" name="GetCountries" creation-date="04/24/2023 13:55:43" type="" type-id="" visibility="public" />
+              <operation id="oab81b3d202f74362b600566b76b031a2269" cid="OP009" name="ProcessPayment" creation-date="04/24/2023 13:55:52" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="3d2220444fd64f809bb536618e8585ba" cid="PROP025" type="property" name="countries" owner="diaa0b208f8c4d4ad08f60fea49ec6171d2873" creator="" creation-date="04/24/2023 13:55:28" visibility="private" />
+          <item id="c6c4568994ea4f969702a4540a5f4ef6" cid="PROP018" type="property" name="fees" owner="di45daa962d9754e8a9dbe209605fe76c42873" creator="" creation-date="04/24/2023 13:55:26" visibility="private" />
+          <item id="7bac8d90a160414a9220c19623896407" cid="PROP031" type="property" name="countries" owner="did28dc7bd58514ea2abe9df3004496bb62873" creator="" creation-date="04/24/2023 13:55:28" visibility="private" />
+        </abstract-items>
+        <layer id="e977fc667ec4408f83443064d882c61a" name="Default" visible="true" enabled="true" locked="false">
+          <item id="di45daa962d9754e8a9dbe209605fe76c42873" iid="5db0eab103b74dca8753072565676f1e" show-fields="true" creation-date="04/24/2023 13:54:47" order-index="2" type="entity">
+            <layout ax="160" ay="-111" awidth="140" aheight="174" x="160" y="-111" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="di46058d0712b149a4965bc41b0bcd81802873" iid="53162c2146c64d87baed6151f6e7eb4b" show-fields="true" creation-date="04/24/2023 13:54:47" order-index="2" type="entity">
+            <layout ax="325" ay="-111" awidth="140" aheight="174" x="325" y="-111" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="diaa0b208f8c4d4ad08f60fea49ec6171d2873" iid="223aa07f885e4720af320ec1e1dc6f47" show-fields="true" creation-date="04/24/2023 13:54:47" order-index="2" type="entity">
+            <layout ax="500" ay="-111" awidth="140" aheight="174" x="500" y="-111" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="dia038be6abdfa4e00807d9dd65afa078b2873" iid="c05a8df6cbfc4b1d9d31668eaa72c4bb" show-fields="true" creation-date="04/24/2023 13:54:47" order-index="2" type="entity">
+            <layout ax="675" ay="-111" awidth="140" aheight="174" x="675" y="-111" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="did28dc7bd58514ea2abe9df3004496bb62873" iid="b48d86a7999b4963bb73a40f15994064" show-fields="true" creation-date="04/24/2023 13:54:47" order-index="2" type="entity">
+            <layout ax="850" ay="-111" awidth="140" aheight="174" x="850" y="-111" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="be457cc5684a4a0ea561d890a0527bc5" iid="4fa424c63cca477485799ad922ea8be7" show-fields="true" creation-date="04/30/2023 14:24:35" order-index="3" type="entity">
+            <layout ax="160" ay="-428" awidth="140" aheight="160" x="160" y="-428" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="c7e9250d632a4a8caedc9eab52d4a3d6" iid="2580b0a21ae343a5aa87a2b8e0270cb6" creation-date="04/30/2023 14:28:19" order-index="4" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="261" y1="-268" x2="262" y2="-111" start-border-pos="0.569642857142857" end-border-pos="0.182142853736877" start-local-pos="101" end-local-pos="102" name-position="0,20">
+              <points>
+                <point x="261" y="-268" />
+                <point x="262" y="-111" />
+              </points>
+            </layout>
+            <relation from="be457cc5684a4a0ea561d890a0527bc5" from-iid="4fa424c63cca477485799ad922ea8be7" />
+          </item>
+          <item id="dic168f887bc464060a7fad8c2a0a1cfac1878" iid="6616b72ac7d9494788475746eb11d045" show-fields="true" creation-date="04/30/2023 14:24:35" order-index="3" type="entity">
+            <layout ax="325" ay="-428" awidth="140" aheight="160" x="315" y="-438" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="di179b50bd6cb145e7a782f3f59856ae9a1878" iid="13addf89d3f94d78a342942d23a01269" creation-date="04/30/2023 14:28:19" order-index="4" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="426" y1="-268" x2="430" y2="-111" start-border-pos="0.569642857142857" end-border-pos="0.1875" start-local-pos="101" end-local-pos="105" name-position="0,20">
+              <points>
+                <point x="426" y="-268" />
+                <point x="430" y="-111" />
+              </points>
+            </layout>
+            <relation from="dic168f887bc464060a7fad8c2a0a1cfac1878" from-iid="6616b72ac7d9494788475746eb11d045" to="di46058d0712b149a4965bc41b0bcd81802873" to-iid="53162c2146c64d87baed6151f6e7eb4b" />
+          </item>
+          <item id="die24e5ee9a0c64243b356b98260837eb02429" iid="3b657ccefc8246d49ee82583234528d0" show-fields="true" creation-date="04/30/2023 14:24:35" order-index="3" type="entity">
+            <layout ax="500" ay="-428" awidth="140" aheight="160" x="490" y="-438" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="didcfa1fd598fa4f46a559338ced0957a92429" iid="86c50c0df2a6464e94a0ede46349927e" creation-date="04/30/2023 14:28:19" order-index="4" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="601" y1="-268" x2="606" y2="-111" start-border-pos="0.569642857142857" end-border-pos="0.189285710453987" start-local-pos="101" end-local-pos="106" name-position="0,20">
+              <points>
+                <point x="601" y="-268" />
+                <point x="606" y="-111" />
+              </points>
+            </layout>
+            <relation from="die24e5ee9a0c64243b356b98260837eb02429" from-iid="3b657ccefc8246d49ee82583234528d0" to="diaa0b208f8c4d4ad08f60fea49ec6171d2873" to-iid="223aa07f885e4720af320ec1e1dc6f47" />
+          </item>
+          <item id="di69b63ba9e17842fd9624315c0c76c5cf4414" iid="e117f960b3a84c8b8c36e12aa45cadda" show-fields="true" creation-date="04/30/2023 14:24:35" order-index="3" type="entity">
+            <layout ax="675" ay="-428" awidth="140" aheight="160" x="665" y="-438" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="di70ef253715da468282fddeeb073882ad4414" iid="1f53636cb3e444a1bfd395790ec5d2a8" creation-date="04/30/2023 14:28:19" order-index="4" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="776" y1="-268" x2="780" y2="-111" start-border-pos="0.569642857142857" end-border-pos="0.1875" start-local-pos="101" end-local-pos="105" name-position="0,20">
+              <points>
+                <point x="776" y="-268" />
+                <point x="780" y="-111" />
+              </points>
+            </layout>
+            <relation from="di69b63ba9e17842fd9624315c0c76c5cf4414" from-iid="e117f960b3a84c8b8c36e12aa45cadda" to="dia038be6abdfa4e00807d9dd65afa078b2873" to-iid="c05a8df6cbfc4b1d9d31668eaa72c4bb" />
+          </item>
+          <item id="di538422d7aa0948a2af4aff0534b20d525534" iid="a3df9a9ccf4145fa9ac1c6206775f455" show-fields="true" creation-date="04/30/2023 14:24:35" order-index="3" type="entity">
+            <layout ax="850" ay="-428" awidth="140" aheight="160" x="840" y="-438" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="dicfd5e7adc60a4e348361bd94de14cf755534" iid="0c05decc226144159c9b851498d9d6b5" creation-date="04/30/2023 14:28:19" order-index="4" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="951" y1="-268" x2="952" y2="-111" start-border-pos="0.569642857142857" end-border-pos="0.182142853736877" start-local-pos="101" end-local-pos="102" name-position="0,20">
+              <points>
+                <point x="951" y="-268" />
+                <point x="952" y="-111" />
+              </points>
+            </layout>
+            <relation from="di538422d7aa0948a2af4aff0534b20d525534" from-iid="a3df9a9ccf4145fa9ac1c6206775f455" to="did28dc7bd58514ea2abe9df3004496bb62873" to-iid="b48d86a7999b4963bb73a40f15994064" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-class" id="p26ce9e6024594a42b0af81c401da213b_399033373" name="Diagram klas - obiekty typu mock" order-index="3" overview-order-index="1" uid="" auto-routed-paths="false" default-line-style="default" view-location="0,-219">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>04/30/2023 15:27:55</creation-date>
+          <change-date>04/30/2023 15:32:58</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="dif747b03bae5648628322cd605afc333a8825" cid="C020" type="class" name="PaymentAMock" creator="" creation-date="04/24/2023 13:54:47" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="a361209e7b8c841c5976cc7473a302bdc386" cid="PROP038" name="name" creation-date="04/24/2023 13:55:23" property-ref="91e78d988e684858a7b17e77acb03cbc" />
+              <attribute id="a7d312834f88c4b5db0950898eb0d5547958" cid="PROP039" name="fees" creation-date="04/24/2023 13:55:26" property-ref="e35596766d3a485dbc43da900018af28" />
+              <attribute id="a4a0740e3f08f4e13a53f078790486666928" cid="PROP040" name="countries" creation-date="04/24/2023 13:55:28" property-ref="79e0b982f52342efb9ebb415362bc586" />
+            </attributes>
+            <operations>
+              <operation id="o247561c24f704f909660db105b39c843975" cid="OP006" name="GetName" creation-date="04/24/2023 13:55:35" type="" type-id="" visibility="public" />
+              <operation id="o549c571da049465f9637e6627b4363e0361" cid="OP007" name="GetFees" creation-date="04/24/2023 13:55:40" type="" type-id="" visibility="public" />
+              <operation id="o40311c1da36d401db57014b6421de5e0819" cid="OP008" name="GetCountries" creation-date="04/24/2023 13:55:43" type="" type-id="" visibility="public" />
+              <operation id="oab81b3d202f74362b600566b76b031a2269" cid="OP009" name="ProcessPayment" creation-date="04/24/2023 13:55:52" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="38d84b91952f49ca9334fde65482d847" cid="PROP033" type="property" name="fees" owner="di6689a534e3e244f0ab4819d28e3d99de5944" creator="" creation-date="04/24/2023 13:55:26" visibility="private" />
+          <item id="1cca91974d4647779b72ea8723f25649" cid="PROP034" type="property" name="countries" owner="di6689a534e3e244f0ab4819d28e3d99de5944" creator="" creation-date="04/24/2023 13:55:28" visibility="private" />
+          <item id="5143c88c42174c8abf9738a66ff507f6" cid="GNR008" type="generalization" creator="" creation-date="04/30/2023 15:32:38" from="di6689a534e3e244f0ab4819d28e3d99de5944" to="dif747b03bae5648628322cd605afc333a8825" visibility="package" />
+          <item id="943c80f270c549528c76bc027bcdbf1e" cid="PROP035" type="property" name="name" owner="die67778210d144f7bba854becee6a46dd5944" creator="" creation-date="04/24/2023 13:55:23" visibility="private" />
+          <item id="88845f0af7504d048f3118c5692be986" cid="REA010" type="realization" creator="" creation-date="04/30/2023 15:32:54" from="dif747b03bae5648628322cd605afc333a8825" to="di9ad6907ef10143f4b201c103d0a57f5c1587" visibility="package" />
+          <item id="b8628ba04fda4f508f43575adc7bea87" cid="PROP037" type="property" name="countries" owner="die67778210d144f7bba854becee6a46dd5944" creator="" creation-date="04/24/2023 13:55:28" visibility="private" />
+          <item id="di56411584ba0540128ab2f546f7ca2c379652" cid="C021" type="class" name="PaymentBMock" creator="" creation-date="04/24/2023 13:54:47" visibility="undefined">
+            <attributes>
+              <attribute id="a361209e7b8c841c5976cc7473a302bdc386" cid="PROP044" name="name" creation-date="04/24/2023 13:55:23" property-ref="c6c25193b7434dd9bd97b1669f5a01b5" />
+              <attribute id="a7d312834f88c4b5db0950898eb0d5547958" cid="PROP045" name="fees" creation-date="04/24/2023 13:55:26" property-ref="a293f47a9b0444aabd928c82ccb33660" />
+              <attribute id="a4a0740e3f08f4e13a53f078790486666928" cid="PROP046" name="countries" creation-date="04/24/2023 13:55:28" property-ref="553ef661418c46c3be13d88ccdcbe25f" />
+            </attributes>
+            <operations>
+              <operation id="o247561c24f704f909660db105b39c843975" cid="OP006" name="GetName" creation-date="04/24/2023 13:55:35" type="" type-id="" visibility="public" />
+              <operation id="o549c571da049465f9637e6627b4363e0361" cid="OP007" name="GetFees" creation-date="04/24/2023 13:55:40" type="" type-id="" visibility="public" />
+              <operation id="o40311c1da36d401db57014b6421de5e0819" cid="OP008" name="GetCountries" creation-date="04/24/2023 13:55:43" type="" type-id="" visibility="public" />
+              <operation id="oab81b3d202f74362b600566b76b031a2269" cid="OP009" name="ProcessPayment" creation-date="04/24/2023 13:55:52" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="e35596766d3a485dbc43da900018af28" cid="PROP039" type="property" name="fees" owner="dif747b03bae5648628322cd605afc333a8825" creator="" creation-date="04/24/2023 13:55:26" visibility="private" />
+          <item id="di9ad6907ef10143f4b201c103d0a57f5c1587" cid="I002" type="uml-interface-classifier" name="IPaymentMethod" creator="" creation-date="04/24/2023 13:52:06" visibility="undefined">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="43f3102cd5774cd39ceccd02ca4d2309_interface_c" type="interface" ref="" />
+            </stereotype-instances>
+            <operations>
+              <operation id="od8bc52c2c5b34a71bbe30a0d148b4b14229" cid="OP001" name="GetName" creation-date="04/24/2023 13:52:33" type="" type-id="" visibility="public" />
+              <operation id="o4344c326f6d54451a57bd794ddbd995e79" cid="OP002" name="GetFees" creation-date="04/24/2023 13:52:46" type="" type-id="" visibility="public" />
+              <operation id="o3f02ff598f184ceaa882b20d0395bd33688" cid="OP003" name="GetCountries" creation-date="04/24/2023 13:53:19" type="" type-id="" visibility="public" />
+              <operation id="obe518159f3814876a7823f97b5abf9a7845" cid="OP004" name="ProcesorPayment" creation-date="04/24/2023 13:53:33" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="79e0b982f52342efb9ebb415362bc586" cid="PROP040" type="property" name="countries" owner="dif747b03bae5648628322cd605afc333a8825" creator="" creation-date="04/24/2023 13:55:28" visibility="private" />
+          <item id="c6c25193b7434dd9bd97b1669f5a01b5" cid="PROP044" type="property" name="name" owner="di56411584ba0540128ab2f546f7ca2c379652" creator="" creation-date="04/24/2023 13:55:23" visibility="private" />
+          <item id="a293f47a9b0444aabd928c82ccb33660" cid="PROP045" type="property" name="fees" owner="di56411584ba0540128ab2f546f7ca2c379652" creator="" creation-date="04/24/2023 13:55:26" visibility="private" />
+          <item id="d89f219ac0524a1686c75df9e3e619c7" cid="REA011" type="realization" creator="" creation-date="04/30/2023 15:32:58" from="di56411584ba0540128ab2f546f7ca2c379652" to="di9ad6907ef10143f4b201c103d0a57f5c1587" visibility="package" />
+          <item id="91e78d988e684858a7b17e77acb03cbc" cid="PROP038" type="property" name="name" owner="dif747b03bae5648628322cd605afc333a8825" creator="" creation-date="04/24/2023 13:55:23" visibility="private" />
+          <item id="553ef661418c46c3be13d88ccdcbe25f" cid="PROP046" type="property" name="countries" owner="di56411584ba0540128ab2f546f7ca2c379652" creator="" creation-date="04/24/2023 13:55:28" visibility="private" />
+          <item id="8e3c1667b29f4a66bda6dfb84f735541" cid="REA008" type="realization" creator="" creation-date="04/30/2023 15:31:17" from="die67778210d144f7bba854becee6a46dd5944" to="di9ad6907ef10143f4b201c103d0a57f5c1587" visibility="package" />
+          <item id="di6689a534e3e244f0ab4819d28e3d99de5944" cid="C018" type="class" name="PaymentA" creator="" creation-date="04/24/2023 13:54:47" visibility="undefined">
+            <attributes>
+              <attribute id="a361209e7b8c841c5976cc7473a302bdc386" cid="PROP032" name="name" creation-date="04/24/2023 13:55:23" property-ref="ec0e138bbd9640b8a41ac842af8ae598" />
+              <attribute id="a7d312834f88c4b5db0950898eb0d5547958" cid="PROP033" name="fees" creation-date="04/24/2023 13:55:26" property-ref="38d84b91952f49ca9334fde65482d847" />
+              <attribute id="a4a0740e3f08f4e13a53f078790486666928" cid="PROP034" name="countries" creation-date="04/24/2023 13:55:28" property-ref="1cca91974d4647779b72ea8723f25649" />
+            </attributes>
+            <operations>
+              <operation id="o247561c24f704f909660db105b39c843975" cid="OP006" name="GetName" creation-date="04/24/2023 13:55:35" type="" type-id="" visibility="public" />
+              <operation id="o549c571da049465f9637e6627b4363e0361" cid="OP007" name="GetFees" creation-date="04/24/2023 13:55:40" type="" type-id="" visibility="public" />
+              <operation id="o40311c1da36d401db57014b6421de5e0819" cid="OP008" name="GetCountries" creation-date="04/24/2023 13:55:43" type="" type-id="" visibility="public" />
+              <operation id="oab81b3d202f74362b600566b76b031a2269" cid="OP009" name="ProcessPayment" creation-date="04/24/2023 13:55:52" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="die67778210d144f7bba854becee6a46dd5944" cid="C019" type="class" name="PaymentB" creator="" creation-date="04/24/2023 13:54:47" visibility="undefined">
+            <attributes>
+              <attribute id="a361209e7b8c841c5976cc7473a302bdc386" cid="PROP035" name="name" creation-date="04/24/2023 13:55:23" property-ref="943c80f270c549528c76bc027bcdbf1e" />
+              <attribute id="a7d312834f88c4b5db0950898eb0d5547958" cid="PROP036" name="fees" creation-date="04/24/2023 13:55:26" property-ref="e7b09f49a41b4497af436fc4fbfb183c" />
+              <attribute id="a4a0740e3f08f4e13a53f078790486666928" cid="PROP037" name="countries" creation-date="04/24/2023 13:55:28" property-ref="b8628ba04fda4f508f43575adc7bea87" />
+            </attributes>
+            <operations>
+              <operation id="o247561c24f704f909660db105b39c843975" cid="OP006" name="GetName" creation-date="04/24/2023 13:55:35" type="" type-id="" visibility="public" />
+              <operation id="o549c571da049465f9637e6627b4363e0361" cid="OP007" name="GetFees" creation-date="04/24/2023 13:55:40" type="" type-id="" visibility="public" />
+              <operation id="o40311c1da36d401db57014b6421de5e0819" cid="OP008" name="GetCountries" creation-date="04/24/2023 13:55:43" type="" type-id="" visibility="public" />
+              <operation id="oab81b3d202f74362b600566b76b031a2269" cid="OP009" name="ProcessPayment" creation-date="04/24/2023 13:55:52" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="a4a0f0808afe4a908711445c92ef5bd7" cid="GNR009" type="generalization" creator="" creation-date="04/30/2023 15:32:44" from="die67778210d144f7bba854becee6a46dd5944" to="di56411584ba0540128ab2f546f7ca2c379652" visibility="package" />
+          <item id="e7b09f49a41b4497af436fc4fbfb183c" cid="PROP036" type="property" name="fees" owner="die67778210d144f7bba854becee6a46dd5944" creator="" creation-date="04/24/2023 13:55:26" visibility="private" />
+          <item id="ec0e138bbd9640b8a41ac842af8ae598" cid="PROP032" type="property" name="name" owner="di6689a534e3e244f0ab4819d28e3d99de5944" creator="" creation-date="04/24/2023 13:55:23" visibility="private" />
+          <item id="a920c326123e4577bfe5a0bbff55076d" cid="REA007" type="realization" creator="" creation-date="04/30/2023 15:31:13" from="di6689a534e3e244f0ab4819d28e3d99de5944" to="di9ad6907ef10143f4b201c103d0a57f5c1587" visibility="package" />
+        </abstract-items>
+        <layer id="d2694a8942ff48829d4c846f2a951b31" name="Default" visible="true" enabled="true" locked="false">
+          <item id="di6689a534e3e244f0ab4819d28e3d99de5944" iid="e59a7d774650445881f1e1e20fe55fbc" show-fields="true" creation-date="04/24/2023 13:54:47" order-index="2" type="entity">
+            <layout ax="160" ay="-111" awidth="140" aheight="174" x="160" y="-111" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="die67778210d144f7bba854becee6a46dd5944" iid="bdea4e1f122d417fb897f1a4846acc1b" show-fields="true" creation-date="04/24/2023 13:54:47" order-index="2" type="entity">
+            <layout ax="160" ay="108" awidth="140" aheight="174" x="160" y="108" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="dif747b03bae5648628322cd605afc333a8825" iid="be0e3088a6e047f7a5a15174e34fe185" show-fields="true" creation-date="04/24/2023 13:54:47" order-index="2" type="entity">
+            <layout ax="563" ay="-111" awidth="140" aheight="174" x="563" y="-111" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="di56411584ba0540128ab2f546f7ca2c379652" iid="9e002de24a12444fb6cbd07e0995bd3f" show-fields="true" creation-date="04/24/2023 13:54:47" order-index="2" type="entity">
+            <layout ax="563" ay="108" awidth="140" aheight="174" x="563" y="108" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="di9ad6907ef10143f4b201c103d0a57f5c1587" iid="f7582ec3a4f54012bc6413f09ecd2f89" creation-date="04/24/2023 13:52:06" order-index="1" type="entity">
+            <layout ax="368" ay="-3" awidth="140" aheight="160" x="368" y="-3" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="a920c326123e4577bfe5a0bbff55076d" iid="c08536e1eca840ceace144a3f33e3cec" creation-date="04/30/2023 15:31:13" order-index="3" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="300" y1="36" x2="368" y2="37" start-border-pos="0.461206896551724" end-border-pos="0.9375" start-local-pos="147" end-local-pos="40" name-position="0,20">
+              <points>
+                <point x="300" y="36" />
+                <point x="368" y="37" />
+              </points>
+            </layout>
+            <relation from="di6689a534e3e244f0ab4819d28e3d99de5944" from-iid="e59a7d774650445881f1e1e20fe55fbc" to="di9ad6907ef10143f4b201c103d0a57f5c1587" to-iid="f7582ec3a4f54012bc6413f09ecd2f89" />
+          </item>
+          <item id="8e3c1667b29f4a66bda6dfb84f735541" iid="892dbd942d1f44d1b6e78504869ceeb9" creation-date="04/30/2023 15:31:17" order-index="4" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="300" y1="126" x2="368" y2="108" start-border-pos="0.275862068965517" end-border-pos="0.8265625" start-local-pos="18" end-local-pos="111" name-position="0,20">
+              <points>
+                <point x="300" y="126" />
+                <point x="368" y="108" />
+              </points>
+            </layout>
+            <relation from="die67778210d144f7bba854becee6a46dd5944" from-iid="bdea4e1f122d417fb897f1a4846acc1b" to="di9ad6907ef10143f4b201c103d0a57f5c1587" to-iid="f7582ec3a4f54012bc6413f09ecd2f89" />
+          </item>
+          <item id="5143c88c42174c8abf9738a66ff507f6" iid="0b1410f36065469aada4ed299ea56b04" creation-date="04/30/2023 15:32:38" order-index="5" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="300" y1="-77" x2="563" y2="-77" start-border-pos="0.298850574712644" end-border-pos="0.951149425287356" start-local-pos="34" end-local-pos="34" name-position="0,20">
+              <points>
+                <point x="300" y="-77" />
+                <point x="563" y="-77" />
+              </points>
+            </layout>
+            <relation from="di6689a534e3e244f0ab4819d28e3d99de5944" from-iid="e59a7d774650445881f1e1e20fe55fbc" to="dif747b03bae5648628322cd605afc333a8825" to-iid="be0e3088a6e047f7a5a15174e34fe185" />
+          </item>
+          <item id="a4a0f0808afe4a908711445c92ef5bd7" iid="c412a4b3df444dde996943bd5c683a5a" creation-date="04/30/2023 15:32:44" order-index="6" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="300" y1="233" x2="563" y2="240" start-border-pos="0.429597701149425" end-border-pos="0.810344827586207" start-local-pos="125" end-local-pos="132" name-position="0,20">
+              <points>
+                <point x="300" y="233" />
+                <point x="563" y="240" />
+              </points>
+            </layout>
+            <relation from="die67778210d144f7bba854becee6a46dd5944" from-iid="bdea4e1f122d417fb897f1a4846acc1b" to="di56411584ba0540128ab2f546f7ca2c379652" to-iid="9e002de24a12444fb6cbd07e0995bd3f" />
+          </item>
+          <item id="88845f0af7504d048f3118c5692be986" iid="bf08aa3e1fab4177b05c6791ee504084" creation-date="04/30/2023 15:32:54" order-index="7" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="563" y1="10" x2="508" y2="38" start-border-pos="0.826149425287356" end-border-pos="0.3140625" start-local-pos="121" end-local-pos="41" name-position="0,20">
+              <points>
+                <point x="563" y="10" />
+                <point x="508" y="38" />
+              </points>
+            </layout>
+            <relation from="dif747b03bae5648628322cd605afc333a8825" from-iid="be0e3088a6e047f7a5a15174e34fe185" to="di9ad6907ef10143f4b201c103d0a57f5c1587" to-iid="f7582ec3a4f54012bc6413f09ecd2f89" />
+          </item>
+          <item id="d89f219ac0524a1686c75df9e3e619c7" iid="bb066a61c6cc40d6a5ee54e6e8e482ab" creation-date="04/30/2023 15:32:58" order-index="8" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="563" y1="147" x2="508" y2="108" start-border-pos="0.943965517241379" end-border-pos="0.4234375" start-local-pos="39" end-local-pos="111" name-position="0,20">
+              <points>
+                <point x="563" y="147" />
+                <point x="508" y="108" />
+              </points>
+            </layout>
+            <relation from="di56411584ba0540128ab2f546f7ca2c379652" from-iid="9e002de24a12444fb6cbd07e0995bd3f" to="di9ad6907ef10143f4b201c103d0a57f5c1587" to-iid="f7582ec3a4f54012bc6413f09ecd2f89" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
